@@ -1,0 +1,90 @@
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.top-navigation .content1 {
+  height: 4.375rem;
+}
+.content1{
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+.introduction {
+    background-image: url('file:///Users/Brahim/Projects/startup-landing-page-clone/Images/background-image.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.introduction h1   {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+.introduction h3{
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+.introduction h1, .introduction h3 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+.big-button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+    margin: 0 auto;
+    cursor: default;
+}
+.introduction {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+.big-button:hover {
+background-color: #CF503A;
+}
+
+
+
+
+
+
+
+
+
+
+
