@@ -1,23 +1,38 @@
+/*Top Navigation*/
 .top-navigation {
+    display: flex; 
     background-color: #fff;
     position: fixed;
+    top: 0px;
     width: 100%;
-    border-bottom: 1px solid #DDD;
+    border-bottom: 1px solid #fff;
     z-index: 9999;
+    margin: 0;
 }
+.top-navigation .logo-wrapper,
+.top-navigation .links{
+  flex-grow: 1;
+}
+.logo-wrapper{
+  text-align: center;
+  margin-left: 25px;
+  font-size: 1.04rem;
+  margin-top: 1.7rem;
+}
+.logo {
+  padding-bottom: 1rem;
+}
+
 .top-navigation .links {
-    float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
-}
+    font-size: 1.04rem;
+    }
 .top-navigation .links li {
     display: inline-block;
     margin-left: 25px;
     font-size: 1.04rem;
-    margin-top: 1.7rem;
+    margin-top: 1.3rem;
 }
 .top-navigation .links .active {
     color: #4c5058;
@@ -36,12 +51,13 @@
     min-width: 37.5rem;
 }
 .introduction {
-    background-image: url('file:///Users/Brahim/Projects/startup-landing-page-clone/Images/background-image.jpg');
+    background-image: url(http://localhost:8000/Images/background-image.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
-    overflow: auto;
+    overflow: scroll;
+    margin:inherit;
 }
 .introduction h1   {
   margin-top: 17.5rem;
@@ -72,19 +88,76 @@
 .introduction {
     color: white;
     text-align: center;
-    margin-top: 1.563rem;
 }
 .big-button:hover {
 background-color: #CF503A;
 }
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.cases .content3 {
+    margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    float: left;
+    display: block; 
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.social {
+  background-color: #fff;
+  overflow: auto;
+  padding-bottom: 9.375rem;
+  text-align: center;
+}
 
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
 
+.social .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+}
 
+.social .icons > li:hover {
+  cursor: pointer;
+}
 
+.social .twitter {
+  color: #55acee;
+}
 
+.social .facebook {
+  color: #4c66a4;
+}
 
+.social .instagram {
+  color: #3f729b;
+}
 
-
-
-
-
+.social .copy {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #838994;
+}
